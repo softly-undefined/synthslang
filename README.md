@@ -15,9 +15,6 @@ model outputs, review workbooks, caches, and analysis artifacts are intentionall
 excluded. Human-annotation records and the private metric-validation workflow
 reported in the paper are also outside the scope of this release.
 
-The benchmark's translation + scoring stages are also packaged as a runnable
-[Inspect](https://inspect.aisi.org.uk/) eval — see **synthslangBENCH**.
-
 ## What it measures
 
 How well LLMs translate and understand **synthetic slang** — terms that are
