@@ -8,13 +8,6 @@ Russian, and Farsi, proves each term unseen with a contamination gate, runs
 translation inference across a panel of models, and scores the results with
 reference-free LLM-judge metrics.
 
-The only released data are the final, human-accepted benchmark items in
-[`benchmark-data/`](benchmark-data/); its [description](benchmark-data/DESCRIPTION.md)
-defines the slang categories and English gloss fields. Intermediate generations,
-model outputs, review workbooks, caches, and analysis artifacts are intentionally
-excluded. Human-annotation records and the private metric-validation workflow
-reported in the paper are also outside the scope of this release.
-
 ## What it measures
 
 How well LLMs translate and understand **synthetic slang** — terms that are
