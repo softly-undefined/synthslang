@@ -29,11 +29,6 @@ case-sensitive occurrences of **any** listed term in the benchmark fields are
 replaced with `[MASK#]`, including occurrences within longer strings. Longer terms
 take priority when matches overlap. The term column lives only in `*_terms.csv`.
 
-This is text obfuscation, not secrecy or guaranteed protection against learning.
-Inflected, differently capitalized, or differently spaced forms are not covered
-unless they exactly match a listed term. English glosses remain readable.
-Both CSVs together reveal the mapping.
-
 ## Reconstruction
 
 Run with Python 3; no third-party packages are required:
