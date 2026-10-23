@@ -1,0 +1,30 @@
+{
+  "fields": [
+    "item_id",
+    "term",
+    "lang",
+    "type",
+    "definition_tar_lang",
+    "sentence_in_context",
+    "sentence_in_context_gloss",
+    "paragraph_in_context",
+    "paragraph_in_context_gloss"
+  ],
+  "sources": [
+    {
+      "file": "fa.csv",
+      "sha256": "67c8b90a2919c16e46c265e9ab20c671f867649573069aad2ba7343156a9da4f",
+      "rows": 300
+    },
+    {
+      "file": "ru.csv",
+      "sha256": "b12b312710732b3eee7480e43105c63562bdce4d6ed51a827a635db643a166db",
+      "rows": 400
+    },
+    {
+      "file": "zh.csv",
+      "sha256": "33823dc4f6007f10c64a2b3a452880d0ce6a6187b8ee73d5dc5741699ccb09b8",
+      "rows": 387
+    }
+  ]
+}
